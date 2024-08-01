@@ -1,0 +1,640 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* BackGround Image Start */
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/bg\ image.png);
+    background-position: center;
+    background-size: cover;
+
+}  
+  /* BackGround Images End */
+
+   /* NavBar Section Start */
+.nav{   
+    height: 70px;
+    padding: 5px 30px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.nav img{
+    padding-left: 60px;
+}
+.nav i{
+    color: white;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-right: 90px;
+    
+}       
+ /* NavBar Section End */
+    /* Main Section Text Start */
+.bg h1{
+    font-size: 60px;
+    padding-top: 60px;
+    padding-left: 20px;
+    color: white;
+    
+}
+.bg h5{
+    color: #E5AB7A;
+ 
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.bg p{
+    width: 350px;
+    height: 200px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 60px;
+    font-size: 12px;
+}
+.bgtext{
+    border-left: 2px solid white;
+    margin-left: 125px;
+    margin-top: 60px;
+}
+.bg{
+    overflow-x: hidden;
+}
+.bgicon{
+    width: 100%;
+    color: #ffffff;
+    padding-top: 60px;
+    padding: 0px 50%;
+    font-size: 30px;
+    
+}
+
+/* Main Section Text End */
+
+        /* Section Responsive Start */
+
+@media screen and (max-width: 550px){
+
+    .nav img{
+        padding-left: 0px;
+        
+    }
+    .nav i{
+        padding-right: 20px;
+    }
+
+    .bgtext{
+        margin-left: 60px;
+    }
+    .bg h1{
+        font-size: 40px;
+    }
+    .bg p{
+        padding-bottom: 60px;
+    }
+
+}
+@media screen and (max-width: 390px){
+    .bgtext h1 {
+        font-size: 40px;
+    }
+    .bgtext {
+        margin-top: 90px;
+    }
+    .nav i{
+        padding-right: 0px;
+    }
+
+}
+@media screen and (max-width: 375px){
+    .bg p{
+        width: 200px;
+    }
+    .nav i{
+        padding-right: 0px;
+    }
+    
+}
+@media screen and (max-width: 320px){
+    .nav i{
+        padding-right: 0px;
+    }
+    .bg h1{
+        font-size: 30px;
+    }
+    .bg p{
+        font-size: 10px;
+    }
+}
+
+                /* Section Responsive End */
+.sectiontwo{
+    width: 100%;
+    height: 550px;
+    background-color: #F9F6F1;
+
+}
+.index h4{
+    text-align: center;
+    color: #E5AB7A;
+    font-size: 30px;
+    font-weight: 700px;
+    padding-top: 80px;
+}.para {
+    width: 600px;
+    
+}
+.para img{
+    position: relative;
+    bottom: 200px;
+    left: 1100px;
+    width: 100px;
+}
+.pone{
+    padding: 60px 130px ;
+}
+.ptwo{
+    padding: 10px 130px;
+}
+.pthree{
+    padding: 0px 130px ;
+    font-weight: bold;
+}
+@media screen and (max-width: 1024px){
+    .index h4{
+        font-size: 22px;
+    }
+    .index .para img{
+        position: relative;
+        left: 850px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .index .para img{
+        position: relative;
+        left: 600px;
+    }
+}
+@media screen and (max-width: 425px){
+
+    .index .para .pone{
+        width: 425px;
+        padding: 70px 20px;
+    }
+    .index .para .ptwo{
+        width: 425px;
+        padding-left: 20px;
+    }
+    .index .para .pthree{
+        width: 425px;
+        padding-left: 20px;
+    }
+    .index .para img{
+        position: relative;
+        left: 300px;
+        bottom: 70px;
+    }
+}
+@media screen and (max-width: 375px){
+    .index .para .pone{
+        width: 350px; 
+    }
+    .index .para img{
+        position: relative;
+        left: 250px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .index .para .pone{
+        width: 310px; 
+    }
+    .index .para img{
+        width: 90px;
+        padding-left: -60px;
+    }
+}
+
+
+
+/* End */
+
+            /* Section Three Start */
+.sectionthree{
+    width: 100%;
+    height: 700px;
+    background-image: url(./images/sectionthree\ bg.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+  
+}
+.sectionthree .heading {
+    padding-top: 60px;
+    color: black;
+}
+.sectionthree .heading h1{
+    font-size: 70px;
+    padding-left: 60px;
+}
+
+.sectionthree .heading h5{
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 60px;
+}
+.sectionthree .boxsec .box{
+    width: 500px;
+    height: 250px;
+    background-color: rgb(7, 132, 7);
+    margin: 0px 20px;
+}
+.sectionthree .boxsec .box1 {
+    background-image: url(./images/box\ img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.sectionthree .boxsec .box1 h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 80px auto;
+}
+.sectionthree .boxsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 150px;
+}
+.sectionthree .boxsec .box2{
+
+    padding: 8px 0px 0px 20px;
+}
+.sectionthree .boxsec .box2 h3{
+    padding-bottom: 10px;
+    font-weight: bold;
+    padding: 42px 0px;
+}
+.sectionthree .boxsec .box2 p{
+    padding: 10px 5px;
+}
+@media screen and (max-width: 1024px){
+    .sectionthree .boxsec .box{
+        width: 500px;
+        height: 190px;
+        margin: 0px 30px;
+        padding: 0px;   
+    }
+    .sectionthree .boxsec .box p{
+        padding: 5px 10px;
+    }
+    .sectionthree .boxsec .box1 h3{
+        margin: 30px 0px;
+
+        
+    }
+    .sectionthree .boxsec .box2 h3{
+        padding: 5px 0px;
+        
+    }
+}
+@media screen and (max-width: 768px){
+    .sectionthree .boxsec .box{
+        width: 400px;
+        height: 180px;
+        margin: 0px 10px;
+    }
+    .sectionthree .boxsec {
+
+        margin: 20px 90px;
+    }
+    .sectionthree{
+        height: 500px;
+    }
+}
+@media screen and (max-width: 425px){
+    .sectionthree .heading h1{
+        font-size: 42px;
+        margin: 0px ;
+        /* padding: 0px; */
+    }
+    .sectionthree .heading h5{
+
+        padding-top: 12px;
+        padding-left: 60px;
+    }
+    .sectionthree{
+        height: 400px;
+    }
+    .sectionthree .heading{
+
+        padding: 0px;
+    }
+    .sectionthree .boxsec {
+       
+
+        margin: 15px 10px;
+    }
+    .sectionthree .boxsec .box {
+        width: 250px;       
+        height: 150px;
+        margin: 0px 5px;
+    }
+    .sectionthree .boxsec .box2 p {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 320px){
+    .sectionthree .heading h1{
+        font-size: 25px;
+    }
+    .sectionthree .heading h5{
+        font-size: 20px;
+    }
+    .sectionthree .boxsec .box2 {
+        margin: -75px;
+      
+        padding: 0px;
+        width: 200px;
+        position: relative;
+        top: 170px;
+        right: 60px;
+    }
+}
+
+/* Section Three End  */
+
+.sectionfour{
+    width: 100vw;
+    border-top: 2px solid lemonchiffon ;
+    margin: 20px 0px;
+    border-bottom: 2px solid lemonchiffon;
+}
+.sectionfour .cardone{
+    height: 470px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+}
+.sectionfour .cardone .c1img{
+    width: 700px;
+    height: 400px; 
+    position: relative;
+    left: 30px;
+
+}
+.sectionfour .cardtext{
+
+    border-left: 2px solid black;
+    padding: 0px 25px;
+    margin-left: -80px;
+    
+
+}
+.sectionfour .cardtext h4{
+
+    font-size: 40px;
+    padding-bottom: 10px;
+
+}
+.sectionfour .cardtext h5{
+
+    font-size: 20px;
+
+}
+@media screen and (max-width: 768px){
+
+    .sectionfour .cardone {
+        height: 300px;
+        overflow-y: hidden;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        right: 80px;
+    }
+    .sectionfour .cardone .c1img{
+        width: 550px;
+        height: 190px;
+    }
+}
+@media screen and (max-width: 425px){
+    .sectionfour .cardone{
+        height: 300px;
+        
+    }
+ 
+    .sectionfour .cardone .cardtext h4{
+        font-size: 30px;
+
+}
+.sectionfour .cardone .cardtext h5{
+    font-size: 20px;
+
+}
+.sectionfour .cardone .c1img{
+    display: no;
+
+}
+
+}
+@media screen and (max-width: 320px){
+    .sectionfour .cardone .c1logo{
+        width: 350px;
+        height: 200px;
+        margin: 0px 35px;
+    }
+    .sectionfour .cardone .cardtext h4{
+        font-size: 18px;
+    }
+    .sectionfour .cardone .cardtext h5{
+        font-size: 10px;
+    }
+}
+
+
+/* Section Four End */
+.section-five{
+    width: 100%;
+    height: 550px;
+}
+
+.section-five .heading h4{
+    text-align: center;
+    font-size: 40px;
+    margin: 30px auto;
+}
+.container-box .c1b{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 70px;
+}
+.container-box .c2b{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 70px;
+}
+.container-box .box{
+    width: 280px;
+    height: 170px;
+    background-image: url(./images/c1.png);
+    background-size: cover;
+}
+.secfive{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.secfive p{
+    width: 40vw;
+    padding: 20px 0px 10px 40px;
+}
+.secfive h5{
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+
+}
+@media screen and (max-width: 768px){
+    .container-box .box {
+        margin: 8px;
+    }
+    .secfive .para{
+        width: 400px;
+        font-size: 14px;
+        position: relative;
+        bottom: 65px;
+        
+    }
+    .secfive h5{
+        margin-bottom: 120px;
+        
+    }
+
+}
+@media screen and (max-width: 425px){
+    .container-box .box {
+        width: 200px;
+        height: 80px;
+    }
+    .secfive .para{
+        width: 300px;
+        font-size: 12px;
+        margin-top: 60px;
+        
+    }
+    .secfive h5{
+       padding: 8px;
+       margin-top: 45px;
+       
+        
+    }
+        
+ 
+    .container-box .c1b{
+        margin: 15px 15px;
+    }
+    .container-box .c2b{
+        margin: 15px 15px;
+    }
+}
+@media screen and (max-width: 375px){
+
+    .secfive .para{
+        width: 200px;
+        font-size: 12px;
+
+        
+    }
+    .secfive h5{
+       width:150px ;
+       padding-left: 0px;
+       padding-right: 0px;
+        
+         
+     }
+
+
+}
+@media screen and (max-width: 320px){
+    .section-five .heading h4{
+        font-size: 30px;
+    }
+    .secfive  .para{
+        width: 180px;
+        padding-left: 10px;
+    }
+    .secfive{
+
+    }
+}
+
+        /* End */
+
+ footer{
+    
+    width: 100%;
+    height: 80px;
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .articel{
+    width: 30%;
+    padding: 6px 0px 10px 30px;
+}
+footer .articel p{
+    font-size: 10px;
+    
+}
+@media screen and (max-width: 425px){
+    footer .articel p{
+        font-size: 6px;
+        width: 100px;
+
+
+    }
+    footer{
+        margin-bottom: 60px;
+    }
+}
+@media screen and (max-width: 320px){
+    footer .articel p{
+        font-size: 5px;
+        position: relative;
+        right: 25px;
+        
+    }
+    footer .articel h3{
+
+        position: relative;
+        right: 25px;
+        
+    }
+}
+
+
+
